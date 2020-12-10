@@ -2,7 +2,7 @@
 ##
 A Sudoku Game that contains about 300 puzzels in 3 levels
 
-This was my final project for HarvardX CS50's Introduction to Computer Science
+This was my final project for CS50's Introduction to Computer Science - Harvard University
 
 (See the App tested on youtube https://www.youtube.com/watch?v=-Izzlm9rGz0)
 
