@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C570F1AA256B7C8000A703D9 /* Easy.db in Resources */ = {isa = PBXBuildFile; fileRef = C570F1A8256B7C5200A703D9 /* Easy.db */; };
+		C5C0D5B425697FDC00E14E24 /* c1cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C0D5B325697FDC00E14E24 /* c1cell.swift */; };
+		C5C740132573642200D9D137 /* vc1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C740122573642200D9D137 /* vc1.swift */; };
+		C5E95D912552E91200AC3057 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E95D902552E91200AC3057 /* AppDelegate.swift */; };
+		C5E95D962552E91200AC3057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E95D942552E91200AC3057 /* Main.storyboard */; };
+		C5E95D982552E91700AC3057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E95D972552E91700AC3057 /* Assets.xcassets */; };
+		C5E95D9B2552E91700AC3057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E95D992552E91700AC3057 /* LaunchScreen.storyboard */; };
+		C5E95DA52552F41800AC3057 /* vc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E95DA42552F41800AC3057 /* vc2.swift */; };
+		C5FD4BA6257B10CF009CAF10 /* Hard.db in Resources */ = {isa = PBXBuildFile; fileRef = C5FD4BA5257B10CF009CAF10 /* Hard.db */; };
+		C5FD4BA8257B1A19009CAF10 /* Expert.db in Resources */ = {isa = PBXBuildFile; fileRef = C5FD4BA7257B1A19009CAF10 /* Expert.db */; };
+		E819A718B4C06A7947D09180 /* Pods_MySudoku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02113267D8CF4E9B245A6F1C /* Pods_MySudoku.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02113267D8CF4E9B245A6F1C /* Pods_MySudoku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySudoku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56090044A16FC4D55BEB620D /* Pods-MySudoku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySudoku.release.xcconfig"; path = "Target Support Files/Pods-MySudoku/Pods-MySudoku.release.xcconfig"; sourceTree = "<group>"; };
+		AD18AA6A766732D0D2F4A7CF /* Pods-MySudoku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySudoku.debug.xcconfig"; path = "Target Support Files/Pods-MySudoku/Pods-MySudoku.debug.xcconfig"; sourceTree = "<group>"; };
+		C570F1A8256B7C5200A703D9 /* Easy.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Easy.db; sourceTree = "<group>"; };
+		C5C0D5B325697FDC00E14E24 /* c1cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = c1cell.swift; sourceTree = "<group>"; };
+		C5C740122573642200D9D137 /* vc1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vc1.swift; sourceTree = "<group>"; };
+		C5E95D8D2552E91200AC3057 /* MySudoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySudoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E95D902552E91200AC3057 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5E95D952552E91200AC3057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5E95D972552E91700AC3057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5E95D9A2552E91700AC3057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5E95D9C2552E91700AC3057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E95DA42552F41800AC3057 /* vc2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vc2.swift; sourceTree = "<group>"; };
+		C5FD4BA5257B10CF009CAF10 /* Hard.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hard.db; sourceTree = "<group>"; };
+		C5FD4BA7257B1A19009CAF10 /* Expert.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Expert.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5E95D8A2552E91200AC3057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E819A718B4C06A7947D09180 /* Pods_MySudoku.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5E95D842552E91200AC3057 = {
+			isa = PBXGroup;
+			children = (
+				C5E95D8F2552E91200AC3057 /* MySudoku */,
+				C5E95D8E2552E91200AC3057 /* Products */,
+				E1A2A7DCEE2E5932DEBB22DA /* Pods */,
+				C987C984EB5036155A57F893 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5E95D8E2552E91200AC3057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5E95D8D2552E91200AC3057 /* MySudoku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5E95D8F2552E91200AC3057 /* MySudoku */ = {
+			isa = PBXGroup;
+			children = (
+				C5E95D902552E91200AC3057 /* AppDelegate.swift */,
+				C5C740122573642200D9D137 /* vc1.swift */,
+				C5E95DA42552F41800AC3057 /* vc2.swift */,
+				C570F1A8256B7C5200A703D9 /* Easy.db */,
+				C5FD4BA5257B10CF009CAF10 /* Hard.db */,
+				C5FD4BA7257B1A19009CAF10 /* Expert.db */,
+				C5C0D5B325697FDC00E14E24 /* c1cell.swift */,
+				C5E95D942552E91200AC3057 /* Main.storyboard */,
+				C5E95D972552E91700AC3057 /* Assets.xcassets */,
+				C5E95D992552E91700AC3057 /* LaunchScreen.storyboard */,
+				C5E95D9C2552E91700AC3057 /* Info.plist */,
+			);
+			path = MySudoku;
+			sourceTree = "<group>";
+		};
+		C987C984EB5036155A57F893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02113267D8CF4E9B245A6F1C /* Pods_MySudoku.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1A2A7DCEE2E5932DEBB22DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD18AA6A766732D0D2F4A7CF /* Pods-MySudoku.debug.xcconfig */,
+				56090044A16FC4D55BEB620D /* Pods-MySudoku.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5E95D8C2552E91200AC3057 /* MySudoku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E95D9F2552E91700AC3057 /* Build configuration list for PBXNativeTarget "MySudoku" */;
+			buildPhases = (
+				67AE6ACE3D1429FCACE21086 /* [CP] Check Pods Manifest.lock */,
+				C5E95D892552E91200AC3057 /* Sources */,
+				C5E95D8A2552E91200AC3057 /* Frameworks */,
+				C5E95D8B2552E91200AC3057 /* Resources */,
+				A93AF93B4CBD648F19354C7A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySudoku;
+			productName = MySudoku;
+			productReference = C5E95D8D2552E91200AC3057 /* MySudoku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5E95D852552E91200AC3057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = MSalah;
+				TargetAttributes = {
+					C5E95D8C2552E91200AC3057 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C5E95D882552E91200AC3057 /* Build configuration list for PBXProject "MySudoku" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5E95D842552E91200AC3057;
+			productRefGroup = C5E95D8E2552E91200AC3057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5E95D8C2552E91200AC3057 /* MySudoku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5E95D8B2552E91200AC3057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C570F1AA256B7C8000A703D9 /* Easy.db in Resources */,
+				C5E95D9B2552E91700AC3057 /* LaunchScreen.storyboard in Resources */,
+				C5FD4BA6257B10CF009CAF10 /* Hard.db in Resources */,
+				C5E95D982552E91700AC3057 /* Assets.xcassets in Resources */,
+				C5E95D962552E91200AC3057 /* Main.storyboard in Resources */,
+				C5FD4BA8257B1A19009CAF10 /* Expert.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67AE6ACE3D1429FCACE21086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySudoku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A93AF93B4CBD648F19354C7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySudoku/Pods-MySudoku-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySudoku/Pods-MySudoku-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MySudoku/Pods-MySudoku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5E95D892552E91200AC3057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E95DA52552F41800AC3057 /* vc2.swift in Sources */,
+				C5C0D5B425697FDC00E14E24 /* c1cell.swift in Sources */,
+				C5C740132573642200D9D137 /* vc1.swift in Sources */,
+				C5E95D912552E91200AC3057 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5E95D942552E91200AC3057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5E95D952552E91200AC3057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5E95D992552E91700AC3057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5E95D9A2552E91700AC3057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5E95D9D2552E91700AC3057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5E95D9E2552E91700AC3057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5E95DA02552E91700AC3057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD18AA6A766732D0D2F4A7CF /* Pods-MySudoku.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MySudoku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = msalah.MySudoku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5E95DA12552E91700AC3057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56090044A16FC4D55BEB620D /* Pods-MySudoku.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MySudoku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = msalah.MySudoku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5E95D882552E91200AC3057 /* Build configuration list for PBXProject "MySudoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E95D9D2552E91700AC3057 /* Debug */,
+				C5E95D9E2552E91700AC3057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E95D9F2552E91700AC3057 /* Build configuration list for PBXNativeTarget "MySudoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E95DA02552E91700AC3057 /* Debug */,
+				C5E95DA12552E91700AC3057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5E95D852552E91200AC3057 /* Project object */;
+}
